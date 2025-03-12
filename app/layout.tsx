@@ -25,7 +25,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        style={{
+          background: "conic-gradient(from 180deg, #D4E2E8, #1B3540);",
+          backgroundRepeat: "no-repeat",
+        }}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased h-dvh`}
       >
         {children}
       </body>
