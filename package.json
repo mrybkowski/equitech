@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "npm run build && cd build && rsync -artv * ubuntu@51.68.156.248:/opt/equitech/prod"
   },
   "dependencies": {
     "react": "^19.0.0",

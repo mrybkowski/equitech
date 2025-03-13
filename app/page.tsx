@@ -14,7 +14,7 @@ export default function Home() {
       </header>
       <main className="container mx-auto flex items-center justify-center py-32">
         <h1 className="text-[#1B3540] text-6xl font-semibold text-balance text-center">
-          Oops! This website is currently under construction!
+          Sklep w budowie
         </h1>
       </main>
     </div>
